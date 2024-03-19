@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FroyMon</string>
+    <string name="qr_code">qr_code</string>
+
+    <string-array name="lablist">
+        <item>Computer Laboratory 1</item>
+        <item>Computer Laboratory 2</item>
+        <item>Computer Laboratory 3</item>
+        <item>Computer Laboratory 4</item>
+        <item>Computer Laboratory 5</item>
+        <item>Computer Laboratory 6</item>
+        <item>Cisco Laboratory</item>
+        <item>Accounting Laboratory</item>
+        <item>Hardware Laboratory</item>
+        <item>Contact Center Laboratory</item>
+    </string-array>
+
+    <string-array name="computerstatus">
+        <item>Hardware Issues(Malfunctioning or faulty computers, monitors, keyboards, mice, or other hardware components.)</item>
+        <item>Software Glitches(Operating system errors or crashes and Software applications freezing or not responding.)</item>
+        <item>Network Problems(Slow or unreliable internet connectivity or no internet at all)</item>
+        <item>Computer is Fully Functional</item>
+    </string-array>
+
+</resources>

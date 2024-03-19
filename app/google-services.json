@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "168869643793",
+    "firebase_url": "https://froymon-2b381-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "froymon-2b381",
+    "storage_bucket": "froymon-2b381.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168869643793:android:e55e24fe39abcc98a9d3b0",
+        "android_client_info": {
+          "package_name": "com.froyo.froymon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdp813Fj4Is8BdsZNVeemm9khcJQ6E9Ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

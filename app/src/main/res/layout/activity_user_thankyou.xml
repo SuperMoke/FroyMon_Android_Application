@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="100px"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            app:srcCompat="@drawable/_701051780322"
+            tools:src="@drawable/_701051780322" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="385dp"
+            app:srcCompat="@drawable/thankyou"
+            android:layout_marginTop="100px"
+            android:layout_marginBottom="100px"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THANK YOU FOR COMPLETING THE FORM."
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+        <Button
+            android:id="@+id/btnhome"
+            android:layout_marginTop="100px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BACK TO HOMEPAGE"
+            android:background="@drawable/button_box"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

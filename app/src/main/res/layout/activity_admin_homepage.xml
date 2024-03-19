@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_homepage"
+    android:orientation="vertical"
+    android:padding="100px">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        app:srcCompat="@drawable/_701051780322"
+        tools:src="@drawable/_701051780322"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin DashBoard"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="34dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100px">
+
+        <ImageButton
+            android:id="@+id/btncreatelobby"
+            android:layout_width="135dp"
+            android:layout_height="144dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150px"
+            android:background="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/clobby" />
+
+        <ImageButton
+            android:id="@+id/btncomputerinventory"
+            android:layout_width="199dp"
+            android:layout_height="162dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100px"
+            android:background="#00FFFFFF"
+            android:scaleType="centerInside"
+            android:src="@drawable/cinvent" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="160px">
+
+        <ImageButton
+            android:id="@+id/btnqrcodegenerator"
+            android:layout_width="191dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/qr_code_generator" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:background="@drawable/button_box"/>
+
+</LinearLayout>

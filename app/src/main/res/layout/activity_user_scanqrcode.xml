@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_scanqrcode">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <eu.livotov.labs.android.camview.ScannerLiveView
+            android:id="@+id/camview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </eu.livotov.labs.android.camview.ScannerLiveView>
+        <Button
+            android:id="@+id/btnhome"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2000px"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/white"
+            android:text="Back To Homepage"
+            android:textColor="@color/black"/>
+    </FrameLayout>
+</LinearLayout>
